@@ -1,3 +1,4 @@
+[![Run on Push](https://github.com/annushramrg03-byte/my-first-repo/actions/workflows/push.yml/badge.svg)](https://github.com/annushramrg03-byte/my-first-repo/actions)
 # my-first-repo
 
 My first GitHub repository
