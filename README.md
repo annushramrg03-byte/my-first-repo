@@ -14,5 +14,62 @@ I am learning:
 
 issue resolved
 
+# 🗳️ Cloud-Native Voting App on AWS EKS
 
+## 🚀 Overview
+A full-stack cloud-native voting application deployed on **AWS EKS (Kubernetes)**.  
+Users can vote for programming languages, with results stored in a **MongoDB Replica Set**.
+
+---
+
+## 🧱 Architecture
+
+Frontend (React)
+↓
+Backend API (Go)
+↓
+MongoDB Replica Set (StatefulSet)
+
+---
+
+## 🛠️ Tech Stack
+
+- Kubernetes (AWS EKS)
+- Docker
+- React (Frontend)
+- Go (Backend API)
+- MongoDB (Replica Set)
+- AWS (EC2, IAM, EKS)
+
+---
+
+## ⚙️ Features
+
+- Vote for programming languages
+- Scalable microservices architecture
+- MongoDB high availability (Replica Set)
+- Kubernetes StatefulSets & Deployments
+- LoadBalancer services for public access
+
+---
+
+## 📦 Kubernetes Components
+
+- Namespace (cloudchamp)
+- Deployments (Frontend & API)
+- Services (LoadBalancer)
+- StatefulSet (MongoDB)
+- Persistent Volumes (EBS)
+- Secrets (DB credentials)
+
+---
+
+## 🚀 Deployment (Quick Steps)
+
+```bash
+# Connect to EKS
+aws eks update-kubeconfig --name mycluster --region ap-south-1
+
+# Deploy application
+kubectl apply -f .
 
